@@ -1,0 +1,27 @@
+Which version of the KCL 6CCS3AIN/7CCSMAIN practical code is this?
+
+Version 1.0
+
+ Original version for the labs in week 1
+
+Version 1.1
+
+ Removed a few files from the folder to simplify things.
+
+Version 1.2
+
+ Modified api.py to include a function that returns the set of legal
+ actions. This means (I thnk) that all access to the state of the game
+ in the sample agents is now through the functions in api.py (and so
+ you can write code that fits the specification which requires this).
+
+ Note, this change makes this version of sampleAgents *incompatible*
+ with the old version of api.py.
+
+Version 1.3
+
+Added a new layout, mediumClassicNoGhosts, which has no ghosts. Handy
+for devleopment.
+
+Simon Parsons
+Last modified 15th October 2017
